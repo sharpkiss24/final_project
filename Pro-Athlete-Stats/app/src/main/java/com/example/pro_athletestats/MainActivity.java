@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView img_football;
     ImageView img_soccer;
 
-
+//Here's a comment in the Java file
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

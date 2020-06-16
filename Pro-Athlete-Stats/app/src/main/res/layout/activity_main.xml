@@ -9,14 +9,14 @@
         android:id="@+id/tv_soccer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="openSoccerActivity"
         android:text="Soccer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.66"
-        app:layout_constraintStart_toEndOf="@+id/tv_football"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_soccer"
-        app:layout_constraintVertical_bias="0.186"
-        android:onClick="openSoccerActivity"/>
+        app:layout_constraintVertical_bias="0.203" />
 
     <ImageView
         android:id="@+id/img_soccer"
@@ -105,14 +105,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="22dp"
+        android:onClick="openFootballActivity"
         android:text="Football"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintHorizontal_bias="0.192"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_football"
-        app:layout_constraintVertical_bias="0.0"
-        android:onClick="openFootballActivity"/>
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
