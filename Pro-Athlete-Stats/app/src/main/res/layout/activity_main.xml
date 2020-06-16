@@ -3,5 +3,120 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+
     android:layout_height="match_parent"
-    tools:context=".MainActivity" />
+    tools:context=".MainActivity" >
+
+
+
+    <TextView
+        android:id="@+id/tv_soccer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soccer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toEndOf="@+id/tv_football"
+        app:layout_constraintTop_toBottomOf="@+id/img_soccer"
+        app:layout_constraintVertical_bias="0.186"
+        android:onClick="openSoccerActivity"/>
+
+    <ImageView
+        android:id="@+id/img_soccer"
+        android:layout_width="163dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_football"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775"
+        tools:srcCompat="@tools:sample/avatars"
+        android:onClick="openSoccerActivity"/>
+
+    <ImageView
+        android:id="@+id/img_baseball"
+        android:layout_width="163dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        app:srcCompat="@drawable/baseball"
+        android:onClick="openBaseballActivity"/>
+
+    <ImageView
+        android:id="@+id/img_basketball"
+        android:layout_width="168dp"
+        android:layout_height="169dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toEndOf="@+id/img_baseball"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.204"
+        app:srcCompat="@drawable/basketball"
+        android:onClick="openBasketballActivity"/>
+
+    <ImageView
+        android:id="@+id/img_football"
+        android:layout_width="163dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="58dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_baseball"
+        app:layout_constraintVertical_bias="0.438"
+        tools:srcCompat="@tools:sample/avatars"
+        android:onClick="openFootballActivity"/>
+
+    <TextView
+        android:id="@+id/tv_baseball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="Baseball"
+        app:layout_constraintBottom_toTopOf="@+id/img_football"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_baseball"
+        app:layout_constraintVertical_bias="0.108"
+        android:onClick="openBaseballActivity"/>
+
+    <TextView
+        android:id="@+id/tv_basketball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="2dp"
+        android:text="Basketball"
+        app:layout_constraintBottom_toTopOf="@+id/img_soccer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toEndOf="@+id/tv_baseball"
+        app:layout_constraintTop_toBottomOf="@+id/img_basketball"
+        app:layout_constraintVertical_bias="0.127"
+        android:onClick="openBasketballActivity"/>
+
+    <TextView
+        android:id="@+id/tv_football"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="Football"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_football"
+        app:layout_constraintVertical_bias="0.0"
+        android:onClick="openFootballActivity"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
