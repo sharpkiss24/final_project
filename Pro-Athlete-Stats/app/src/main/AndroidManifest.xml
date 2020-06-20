@@ -12,7 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".BaseballActivity"></activity>
-        <activity android:name=".FootballActivity" />
         <activity android:name=".SoccerActivity" />
         <activity android:name=".BasketballActivity" />
         <activity android:name=".MainActivity">

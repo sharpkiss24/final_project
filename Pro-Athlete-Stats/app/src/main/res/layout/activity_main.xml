@@ -8,7 +8,6 @@
     tools:context=".MainActivity" >
 
 
-
     <TextView
         android:id="@+id/tv_soccer"
         android:layout_width="wrap_content"
@@ -17,22 +16,22 @@
         android:text="Soccer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_soccer"
-        app:layout_constraintVertical_bias="0.203" />
+        app:layout_constraintVertical_bias="0.318" />
 
     <ImageView
         android:id="@+id/img_soccer"
         android:layout_width="163dp"
         android:layout_height="166dp"
-        android:layout_marginStart="36dp"
+        android:onClick="openSoccerActivity"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/img_football"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.775"
-        tools:srcCompat="@tools:sample/avatars"
-        android:onClick="openSoccerActivity"/>
+        app:layout_constraintVertical_bias="0.732"
+        tools:layout_editor_absoluteX="116dp"
+        app:srcCompat="@drawable/Soccer"
+        tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
         android:id="@+id/img_baseball"
@@ -45,7 +44,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.18"
-        app:srcCompat="@drawable/baseball"
+        app:srcCompat="@drawable/Baseball"
         android:onClick="openBaseballActivity"/>
 
     <ImageView
@@ -58,36 +57,20 @@
         app:layout_constraintStart_toEndOf="@+id/img_baseball"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.204"
-        app:srcCompat="@drawable/basketball"
+        app:srcCompat="@drawable/Basketball"
         android:onClick="openBasketballActivity"/>
-
-    <ImageView
-        android:id="@+id/img_football"
-        android:layout_width="163dp"
-        android:layout_height="166dp"
-        android:layout_marginTop="58dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_baseball"
-        app:layout_constraintVertical_bias="0.438"
-        tools:srcCompat="@tools:sample/avatars"
-        android:onClick="openFootballActivity"/>
 
     <TextView
         android:id="@+id/tv_baseball"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp"
+        android:onClick="openBaseballActivity"
         android:text="Baseball"
-        app:layout_constraintBottom_toTopOf="@+id/img_football"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.193"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_baseball"
-        app:layout_constraintVertical_bias="0.108"
-        android:onClick="openBaseballActivity"/>
+        app:layout_constraintTop_toBottomOf="@+id/img_baseball" />
 
     <TextView
         android:id="@+id/tv_basketball"
@@ -103,20 +86,6 @@
         app:layout_constraintTop_toBottomOf="@+id/img_basketball"
         app:layout_constraintVertical_bias="0.127"
         android:onClick="openBasketballActivity"/>
-
-    <TextView
-        android:id="@+id/tv_football"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
-        android:onClick="openFootballActivity"
-        android:text="Football"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.192"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_football"
-        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
