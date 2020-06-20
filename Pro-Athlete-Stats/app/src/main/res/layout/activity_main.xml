@@ -16,10 +16,9 @@
         android:text="Soccer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_soccer"
-        app:layout_constraintVertical_bias="0.318" />
+        app:layout_constraintVertical_bias="0.113" />
 
     <ImageView
         android:id="@+id/img_soccer"
@@ -29,8 +28,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.732"
-        tools:layout_editor_absoluteX="116dp"
         app:srcCompat="@drawable/Soccer"
+        tools:layout_editor_absoluteX="177dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
@@ -38,27 +37,27 @@
         android:layout_width="163dp"
         android:layout_height="166dp"
         android:layout_marginTop="16dp"
+        android:onClick="openBaseballActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintHorizontal_bias="0.073"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.18"
-        app:srcCompat="@drawable/Baseball"
-        android:onClick="openBaseballActivity"/>
+        app:layout_constraintVertical_bias="0.265"
+        app:srcCompat="@drawable/Baseball" />
 
     <ImageView
         android:id="@+id/img_basketball"
         android:layout_width="168dp"
         android:layout_height="169dp"
+        android:onClick="openBasketballActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintHorizontal_bias="0.846"
         app:layout_constraintStart_toEndOf="@+id/img_baseball"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.204"
-        app:srcCompat="@drawable/Basketball"
-        android:onClick="openBasketballActivity"/>
+        app:layout_constraintVertical_bias="0.278"
+        app:srcCompat="@drawable/Basketball" />
 
     <TextView
         android:id="@+id/tv_baseball"
@@ -78,14 +77,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="137dp"
         android:layout_marginTop="2dp"
+        android:onClick="openBasketballActivity"
         android:text="Basketball"
         app:layout_constraintBottom_toTopOf="@+id/img_soccer"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintHorizontal_bias="0.552"
         app:layout_constraintStart_toEndOf="@+id/tv_baseball"
         app:layout_constraintTop_toBottomOf="@+id/img_basketball"
-        app:layout_constraintVertical_bias="0.127"
-        android:onClick="openBasketballActivity"/>
+        app:layout_constraintVertical_bias="0.125" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
