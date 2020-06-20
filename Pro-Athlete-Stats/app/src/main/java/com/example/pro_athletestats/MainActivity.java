@@ -14,10 +14,8 @@ public class MainActivity extends AppCompatActivity {
     TextView tv_baseball;
     TextView tv_basketball;
     TextView tv_soccer;
-    TextView tv_football;
     ImageView img_baseball;
     ImageView img_basketball;
-    ImageView img_football;
     ImageView img_soccer;
 
 //Here's a comment in the Java file
@@ -28,11 +26,9 @@ public class MainActivity extends AppCompatActivity {
 
         tv_baseball = findViewById(R.id.tv_baseball);
         tv_basketball = findViewById(R.id.tv_basketball);
-        tv_football = findViewById(R.id.tv_football);
         tv_soccer = findViewById(R.id.tv_soccer);
         img_baseball = findViewById(R.id.img_baseball);
         img_basketball = findViewById(R.id.img_basketball);
-        img_football = findViewById(R.id.img_football);
         img_soccer = findViewById(R.id.img_soccer);
     }
 
@@ -48,10 +44,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intentToOpenAlbumActivity);
     }
 
-    public void openFootballActivity(View view) {
-        Intent intentToOpenAlbumActivity = new Intent(this, FootballActivity.class);
-        startActivity(intentToOpenAlbumActivity);
-    }
 
     public void openSoccerActivity(View view) {
         Intent intentToOpenAlbumActivity = new Intent(this, SoccerActivity.class);
