@@ -30,7 +30,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.732"
-        app:srcCompat="@drawable/Soccer"
+        app:srcCompat="@drawable/soccer"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
@@ -45,7 +45,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.265"
-        app:srcCompat="@drawable/Baseball" />
+        app:srcCompat="@drawable/baseball" />
 
     <ImageView
         android:id="@+id/img_basketball"
@@ -58,7 +58,7 @@
         app:layout_constraintStart_toEndOf="@+id/img_baseball"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.278"
-        app:srcCompat="@drawable/Basketball" />
+        app:srcCompat="@drawable/basketball" />
 
     <TextView
         android:id="@+id/tv_baseball"

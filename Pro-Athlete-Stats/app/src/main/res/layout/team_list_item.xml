@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- This Program is for a Horizontal Linear Layout, Might Change this to all Img Views across the screen once Code is working -->
+    <ImageView
+        android:id="@+id/team_item_badge"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="2"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/team_item_name"
+        android:layout_width="0dp"
+        android:textSize="36sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_height="200dp"
+        android:layout_weight="3"/>
+</LinearLayout>
