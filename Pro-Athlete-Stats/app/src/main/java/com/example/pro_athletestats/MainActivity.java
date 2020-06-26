@@ -7,7 +7,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-public class MainActivity extends AppCompatActivity {
+
 
     TextView tv_baseball;
     TextView tv_basketball;
@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intentToOpenAlbumActivity = new Intent(this, SoccerActivity.class);
         startActivity(intentToOpenAlbumActivity);
     }
+
 }
 
 

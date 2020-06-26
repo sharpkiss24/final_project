@@ -7,4 +7,4 @@
     tools:context=".SoccerActivity"
     android:id="@+id/soccer_listview">
 
-</ListView>
+
