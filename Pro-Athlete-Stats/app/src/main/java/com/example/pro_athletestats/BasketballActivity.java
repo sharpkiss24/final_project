@@ -27,6 +27,7 @@ public class BasketballActivity extends AppCompatActivity {
         basketball.add(new TeamItem("Chicago Bulls", R.drawable.badge_bulls));
         basketball.add(new TeamItem("Golden State Warriors", R.drawable.badge_warriors));
         basketball.add(new TeamItem("Cleaveland Cavaliers", R.drawable.badge_cavs));
+        basketball.add(new TeamItem("Atlanta Hawks", R.drawable.badge_hawks));
 
         ListView basketballListview = findViewById(R.id.basketball_listview);
         TeamAdapter basketballAdapter = new TeamAdapter(this, basketball);
