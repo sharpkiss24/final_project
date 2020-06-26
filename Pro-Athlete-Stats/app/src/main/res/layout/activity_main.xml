@@ -27,9 +27,10 @@
         android:layout_height="166dp"
         android:onClick="openSoccerActivity"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.732"
-        tools:layout_editor_absoluteX="116dp"
+        app:layout_constraintVertical_bias="0.736"
         app:srcCompat="@drawable/Soccer"
         tools:srcCompat="@tools:sample/avatars" />
 
