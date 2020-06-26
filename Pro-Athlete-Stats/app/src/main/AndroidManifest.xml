@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".FootballActivity"></activity>
+        <activity android:name=".VolleyballActivity" />
         <activity android:name=".BaseballActivity" />
         <activity android:name=".SoccerActivity" />
         <activity android:name=".BasketballActivity" />
