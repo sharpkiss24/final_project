@@ -13,10 +13,11 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
 
-
+    TextView tv_football;
     TextView tv_baseball;
     TextView tv_basketball;
     TextView tv_soccer;
+    ImageView img_football;
     ImageView img_baseball;
     ImageView img_basketball;
     ImageView img_soccer;
@@ -30,9 +31,11 @@ public class MainActivity extends AppCompatActivity {
         tv_baseball = findViewById(R.id.tv_baseball);
         tv_basketball = findViewById(R.id.tv_basketball);
         tv_soccer = findViewById(R.id.tv_soccer);
+        tv_football = findViewById(R.id.tv_football);
         img_baseball = findViewById(R.id.img_baseball);
         img_basketball = findViewById(R.id.img_basketball);
         img_soccer = findViewById(R.id.img_soccer);
+        img_football = findViewById(R.id.img_football);
     }
 
 
@@ -54,9 +57,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
-
+    public void openFootballActivity(View view) {
+        Intent intentToOpenAlbumActivity = new Intent( this, FootballActivity.class);
+        startActivity(intentToOpenAlbumActivity);
+    }
+    
 }
 
 
