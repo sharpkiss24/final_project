@@ -7,4 +7,6 @@ android:layout_height="match_parent"
 tools:context=".BaseballActivity"
 android:id="@+id/baseball_listview">
 
+
 </ListView>
+
